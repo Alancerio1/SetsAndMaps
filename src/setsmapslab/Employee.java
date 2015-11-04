@@ -72,7 +72,6 @@ public class Employee implements Comparable {
 
         return new CompareToBuilder()
                 .append(this.ssn, o.ssn)
-                .append(this.firstName, o.firstName)
                 .toComparison();
 
     }
