@@ -50,6 +50,7 @@ public class SetsMapsLab {
             Employee found = (Employee)employeeMap.get(key);
             System.out.println(found.toString());
         }
+        
         System.out.println("");
         System.out.println("Lab3");
         Employee person = null;
@@ -67,9 +68,9 @@ public class SetsMapsLab {
         }
         System.out.println("");
         System.out.println("lab3 sorted by first name");
-        Collection<Employee> values = empMap.values();
+        Collection<Employee> empValues = empMap.values();
        
-        List<Employee> sortedList = new ArrayList<Employee>(values);
+        List<Employee> sortedList = new ArrayList<Employee>(empValues);
        
         Collections.sort(sortedList, new CompareByFirstName());
         for(Employee emp : sortedList) {
