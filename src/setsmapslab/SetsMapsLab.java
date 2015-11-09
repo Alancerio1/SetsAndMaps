@@ -43,7 +43,7 @@ public class SetsMapsLab {
         Map employeeMap = new HashMap(); 
         employeeMap.put("111-11-111", e1);
         employeeMap.put("222-22-222", e2);
-        employeeMap.put("333-33-3333", e3);
+        employeeMap.put("444-44-444", e3);
         employeeMap.put("444-44-444", e4);
         Set keys = employeeMap.keySet();
         for(Object key : keys) {
